@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635AE0E828BFB8DD0085E67B /* FileFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0E728BFB8DD0085E67B /* FileFigure.swift */; };
+		635AE0EA28BFBBD90085E67B /* FileFigureTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0E928BFBBD90085E67B /* FileFigureTriangle.swift */; };
+		635AE0ED28BFE9D40085E67B /* FileShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0EC28BFE9D40085E67B /* FileShortcut.swift */; };
 		637E109728BF68B000E796B2 /* UIAnimationFigureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E109628BF68B000E796B2 /* UIAnimationFigureApp.swift */; };
 		637E109928BF68B000E796B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E109828BF68B000E796B2 /* ContentView.swift */; };
 		637E109B28BF68B400E796B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E109A28BF68B400E796B2 /* Assets.xcassets */; };
 		637E109E28BF68B400E796B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E109D28BF68B400E796B2 /* Preview Assets.xcassets */; };
+		637E10A528BF68FA00E796B2 /* FileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E10A428BF68FA00E796B2 /* FileIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		635AE0E728BFB8DD0085E67B /* FileFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFigure.swift; sourceTree = "<group>"; };
+		635AE0E928BFBBD90085E67B /* FileFigureTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFigureTriangle.swift; sourceTree = "<group>"; };
+		635AE0EC28BFE9D40085E67B /* FileShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShortcut.swift; sourceTree = "<group>"; };
 		637E109328BF68B000E796B2 /* UIAnimationFigure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAnimationFigure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637E109628BF68B000E796B2 /* UIAnimationFigureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationFigureApp.swift; sourceTree = "<group>"; };
 		637E109828BF68B000E796B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		637E109A28BF68B400E796B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637E109D28BF68B400E796B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		637E10A428BF68FA00E796B2 /* FileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635AE0EB28BFE9B40085E67B /* FileShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				635AE0EC28BFE9D40085E67B /* FileShortcut.swift */,
+				637E10A428BF68FA00E796B2 /* FileIcon.swift */,
+				635AE0E728BFB8DD0085E67B /* FileFigure.swift */,
+				635AE0E928BFBBD90085E67B /* FileFigureTriangle.swift */,
+			);
+			path = FileShortcut;
+			sourceTree = "<group>";
+		};
 		637E108A28BF68B000E796B2 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +74,7 @@
 				637E109828BF68B000E796B2 /* ContentView.swift */,
 				637E109A28BF68B400E796B2 /* Assets.xcassets */,
 				637E109C28BF68B400E796B2 /* Preview Content */,
+				635AE0EB28BFE9B40085E67B /* FileShortcut */,
 			);
 			path = UIAnimationFigure;
 			sourceTree = "<group>";
@@ -138,6 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				637E109928BF68B000E796B2 /* ContentView.swift in Sources */,
+				635AE0ED28BFE9D40085E67B /* FileShortcut.swift in Sources */,
+				635AE0E828BFB8DD0085E67B /* FileFigure.swift in Sources */,
+				635AE0EA28BFBBD90085E67B /* FileFigureTriangle.swift in Sources */,
+				637E10A528BF68FA00E796B2 /* FileIcon.swift in Sources */,
 				637E109728BF68B000E796B2 /* UIAnimationFigureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
