@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var animationState = AnimationState()
+    
     var body: some View {
-        FileShortcut()
+        VStack {
+            if animationState.isRunning {
+                AnimationBlock()
+                    .environmentObject(animationState)
+            }
+            
+            Button {
+                withAnimation(.easeIn) {
+                    animationState.isRunning.toggle()
+                }
+            } label: {
+                Text(animationState.isRunning ? "Stop animation" : "Start animation")
+            }
+            .padding(.bottom, 20.0)
+        }
     }
 }
 

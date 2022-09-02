@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6320A80728C0F3E800A057F9 /* AnimationBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320A80628C0F3E800A057F9 /* AnimationBlock.swift */; };
+		6320A80928C209EF00A057F9 /* WarningBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320A80828C209EF00A057F9 /* WarningBlock.swift */; };
+		6320A80B28C223E500A057F9 /* AnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320A80A28C223E500A057F9 /* AnimationState.swift */; };
 		635AE0E828BFB8DD0085E67B /* FileFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0E728BFB8DD0085E67B /* FileFigure.swift */; };
 		635AE0EA28BFBBD90085E67B /* FileFigureTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0E928BFBBD90085E67B /* FileFigureTriangle.swift */; };
 		635AE0ED28BFE9D40085E67B /* FileShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0EC28BFE9D40085E67B /* FileShortcut.swift */; };
+		635AE0F028C0B2040085E67B /* EditorForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0EF28C0B2040085E67B /* EditorForm.swift */; };
+		635AE0F228C0B2290085E67B /* EditorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0F128C0B2290085E67B /* EditorHeader.swift */; };
+		635AE0F428C0B6E30085E67B /* HeaderActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0F328C0B6E30085E67B /* HeaderActions.swift */; };
+		635AE0F628C0B8C30085E67B /* EditorBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0F528C0B8C30085E67B /* EditorBody.swift */; };
+		635AE0F828C0BAD10085E67B /* EditorFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0F728C0BAD10085E67B /* EditorFooter.swift */; };
+		635AE0FA28C0C15B0085E67B /* LineOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0F928C0C15B0085E67B /* LineOfCode.swift */; };
+		635AE0FC28C0C5500085E67B /* CodeLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE0FB28C0C5500085E67B /* CodeLineType.swift */; };
 		637E109728BF68B000E796B2 /* UIAnimationFigureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E109628BF68B000E796B2 /* UIAnimationFigureApp.swift */; };
 		637E109928BF68B000E796B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E109828BF68B000E796B2 /* ContentView.swift */; };
 		637E109B28BF68B400E796B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E109A28BF68B400E796B2 /* Assets.xcassets */; };
@@ -18,9 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6320A80628C0F3E800A057F9 /* AnimationBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBlock.swift; sourceTree = "<group>"; };
+		6320A80828C209EF00A057F9 /* WarningBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningBlock.swift; sourceTree = "<group>"; };
+		6320A80A28C223E500A057F9 /* AnimationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationState.swift; sourceTree = "<group>"; };
 		635AE0E728BFB8DD0085E67B /* FileFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFigure.swift; sourceTree = "<group>"; };
 		635AE0E928BFBBD90085E67B /* FileFigureTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFigureTriangle.swift; sourceTree = "<group>"; };
 		635AE0EC28BFE9D40085E67B /* FileShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShortcut.swift; sourceTree = "<group>"; };
+		635AE0EF28C0B2040085E67B /* EditorForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorForm.swift; sourceTree = "<group>"; };
+		635AE0F128C0B2290085E67B /* EditorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorHeader.swift; sourceTree = "<group>"; };
+		635AE0F328C0B6E30085E67B /* HeaderActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderActions.swift; sourceTree = "<group>"; };
+		635AE0F528C0B8C30085E67B /* EditorBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorBody.swift; sourceTree = "<group>"; };
+		635AE0F728C0BAD10085E67B /* EditorFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFooter.swift; sourceTree = "<group>"; };
+		635AE0F928C0C15B0085E67B /* LineOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineOfCode.swift; sourceTree = "<group>"; };
+		635AE0FB28C0C5500085E67B /* CodeLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLineType.swift; sourceTree = "<group>"; };
 		637E109328BF68B000E796B2 /* UIAnimationFigure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAnimationFigure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637E109628BF68B000E796B2 /* UIAnimationFigureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationFigureApp.swift; sourceTree = "<group>"; };
 		637E109828BF68B000E796B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +71,29 @@
 			path = FileShortcut;
 			sourceTree = "<group>";
 		};
+		635AE0EE28C0B1E30085E67B /* EditorForms */ = {
+			isa = PBXGroup;
+			children = (
+				635AE0EF28C0B2040085E67B /* EditorForm.swift */,
+				635AE0F128C0B2290085E67B /* EditorHeader.swift */,
+				635AE0F328C0B6E30085E67B /* HeaderActions.swift */,
+				635AE0F528C0B8C30085E67B /* EditorBody.swift */,
+				635AE0F728C0BAD10085E67B /* EditorFooter.swift */,
+				635AE0F928C0C15B0085E67B /* LineOfCode.swift */,
+				6320A80828C209EF00A057F9 /* WarningBlock.swift */,
+			);
+			path = EditorForms;
+			sourceTree = "<group>";
+		};
+		635AE0FD28C0C5570085E67B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				635AE0FB28C0C5500085E67B /* CodeLineType.swift */,
+				6320A80A28C223E500A057F9 /* AnimationState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		637E108A28BF68B000E796B2 = {
 			isa = PBXGroup;
 			children = (
@@ -72,9 +115,12 @@
 			children = (
 				637E109628BF68B000E796B2 /* UIAnimationFigureApp.swift */,
 				637E109828BF68B000E796B2 /* ContentView.swift */,
-				637E109A28BF68B400E796B2 /* Assets.xcassets */,
-				637E109C28BF68B400E796B2 /* Preview Content */,
+				6320A80628C0F3E800A057F9 /* AnimationBlock.swift */,
 				635AE0EB28BFE9B40085E67B /* FileShortcut */,
+				635AE0EE28C0B1E30085E67B /* EditorForms */,
+				637E109A28BF68B400E796B2 /* Assets.xcassets */,
+				635AE0FD28C0C5570085E67B /* Models */,
+				637E109C28BF68B400E796B2 /* Preview Content */,
 			);
 			path = UIAnimationFigure;
 			sourceTree = "<group>";
@@ -157,12 +203,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6320A80B28C223E500A057F9 /* AnimationState.swift in Sources */,
+				635AE0F828C0BAD10085E67B /* EditorFooter.swift in Sources */,
 				637E109928BF68B000E796B2 /* ContentView.swift in Sources */,
+				6320A80728C0F3E800A057F9 /* AnimationBlock.swift in Sources */,
 				635AE0ED28BFE9D40085E67B /* FileShortcut.swift in Sources */,
 				635AE0E828BFB8DD0085E67B /* FileFigure.swift in Sources */,
 				635AE0EA28BFBBD90085E67B /* FileFigureTriangle.swift in Sources */,
+				635AE0F028C0B2040085E67B /* EditorForm.swift in Sources */,
+				635AE0F228C0B2290085E67B /* EditorHeader.swift in Sources */,
+				635AE0FC28C0C5500085E67B /* CodeLineType.swift in Sources */,
+				6320A80928C209EF00A057F9 /* WarningBlock.swift in Sources */,
+				635AE0F628C0B8C30085E67B /* EditorBody.swift in Sources */,
 				637E10A528BF68FA00E796B2 /* FileIcon.swift in Sources */,
 				637E109728BF68B000E796B2 /* UIAnimationFigureApp.swift in Sources */,
+				635AE0F428C0B6E30085E67B /* HeaderActions.swift in Sources */,
+				635AE0FA28C0C15B0085E67B /* LineOfCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
